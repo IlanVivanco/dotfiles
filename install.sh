@@ -1,9 +1,14 @@
 #!/bin/sh
 cd "$HOME"/.dotfiles
 
-# install packages
-sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
+# Repositories
+add-apt-repository ppa:git-core/ppa
+sudo apt update
+sudo apt upgrade -y
+
+# Install packages
 sudo apt install -y $(cat packages)
+sudo apt autoremove -y
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
