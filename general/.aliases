@@ -1,0 +1,8 @@
+## Windows
+alias explorer='explorer.exe'
+alias clip='clip.exe'
+
+# WSL
+alias www='cd ~/www'
+alias dev='cd ~/code'
+alias win='cd /mnt/c/Users/melio'
