@@ -13,10 +13,9 @@ sudo tee -a  ${FILE} > /dev/null << EOT
 [code]
   comment = Code project directory
   path = ${HOME}/code
+  read only = no
   browseable = yes
-  writeable = yes
-  guest ok = no
-  write list = ilan
+  valid user = ilan
   create mask = 0644
   directory mask = 0755
 EOT
