@@ -18,6 +18,8 @@ sudo tee -a  ${FILE} > /dev/null << EOT
   valid user = ilan
   create mask = 0644
   directory mask = 0755
+  follow symlinks = yes
+  wide links = yes
 EOT
 
 # Auth user
