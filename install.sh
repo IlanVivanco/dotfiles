@@ -12,6 +12,9 @@ sudo apt autoremove -y
 # Create coding dir
 mkdir -p ${HOME}/code
 
+# Setup and config PHP
+./bin/setup-php.sh
+
 # Setup and config Samba
 ./bin/setup-samba.sh
 
