@@ -123,8 +123,6 @@ function clicolors() {
   for color in {0..255}; do; print -Pn "%K{$color}   %k%F{$color}${(l:3::0:)color}%f " ${${(M)$((color%8)):#7}:+$'\n'}; done;
 }
 
-export PATH="$HOME/.config/composer/vendor/bin:$PATH"
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
