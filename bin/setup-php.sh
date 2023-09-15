@@ -4,8 +4,7 @@
 sudo apt install software-properties-common ca-certificates lsb-release apt-transport-https
 LC_ALL=C.UTF-8 sudo add-apt-repository ppa:ondrej/php
 sudo apt update
-sudo apt install php8.2
-sudo apt install php8.2-mysql php8.2-mbstring php8.2-xml php8.2-curl php-zip
+sudo apt install php8.2 php8.2-mysql php8.2-mbstring php8.2-xml php8.2-curl php8.2-zip
 
 # Set up Composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
