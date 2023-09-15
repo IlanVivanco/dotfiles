@@ -135,3 +135,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # To be used on Devilbox
 export IP=$(hostname -I)
+
+# Add composer bin to path
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
