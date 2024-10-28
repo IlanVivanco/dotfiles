@@ -3,11 +3,15 @@ name = Ilán Vivanco
 email = ilanvivanco@gmail.com
 [core]
 excludesfile = /home/ilan/.globalignore
-autocrlf = false
+	autocrlf = true
 editor = code -w
+	filemode = false
+	pager = less
 [init]
 defaultBranch = main
 [pull]
 rebase = false
 [alias]
 purge = "!git remote update --prune && git branch -vv | awk '/: gone]/{print $1}' | xargs git branch -d"
+[log]
+	date = local
