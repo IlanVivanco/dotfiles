@@ -126,13 +126,16 @@ function clicolors() {
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Loads nvm bash_completion
+# NVM config
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 # To be used on Devilbox
 export IP=$(hostname -I)
 
 # Add composer bin to path
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+
+# LocalWP
+export BROWSER=host_chrome
