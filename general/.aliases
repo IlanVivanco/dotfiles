@@ -6,3 +6,6 @@ alias clip='clip.exe'
 alias www='cd ~/www'
 alias dev='cd ~/code'
 alias win='cd /mnt/c/Users/melio'
+
+# Polite sudo alias
+alias please='sudo'
