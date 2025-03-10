@@ -139,3 +139,6 @@ export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 
 # LocalWP
 export BROWSER=host_chrome
+
+export PATH="/home/ilan/.lando/bin:$PATH"; #landopath
+
