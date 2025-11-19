@@ -3,7 +3,7 @@ name = Ilán Vivanco
 email = ilanvivanco@gmail.com
 [core]
 excludesfile = /home/ilan/.globalignore
-	autocrlf = true
+	autocrlf = input
 editor = code -w
 	filemode = false
 	pager = less
