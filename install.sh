@@ -8,6 +8,7 @@ sudo apt upgrade -y
 # Install packages
 sudo apt install -y $(cat packages)
 sudo apt autoremove -y
+sudo apt install dnsutils
 
 # Create coding dir
 mkdir -p ${HOME}/code
