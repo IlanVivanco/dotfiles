@@ -12,3 +12,9 @@ log/
 
 # Local Netlify folder
 .netlify
+
+# Ignore AI setting folders
+.claude
+.openai
+.copilot
+.llama
