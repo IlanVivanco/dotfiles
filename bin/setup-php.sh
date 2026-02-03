@@ -12,3 +12,9 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff0319065
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
+
+# PHP CodeSniffer and WordPress Coding Standards
+composer global require "squizlabs/php_codesniffer=*"
+composer global config allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
+composer global require --dev phpcompatibility/php-compatibility:"^10.0.0@dev" -W
+composer global require --dev wp-coding-standards/wpcs:"^3.0" -W
