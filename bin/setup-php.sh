@@ -18,3 +18,5 @@ composer global require "squizlabs/php_codesniffer=*"
 composer global config allow-plugins.dealerdirect/phpcodesniffer-composer-installer true
 composer global require --dev phpcompatibility/php-compatibility:"^10.0.0@dev" -W
 composer global require --dev wp-coding-standards/wpcs:"^3.0" -W
+composer global require php-stubs/wordpress-stubs
+composer global require php-stubs/acf-pro-stubs

@@ -56,9 +56,8 @@
 		<properties>
 			<property name="prefixes" type="array">
 				<element value="ntm_"/>
-				<element value="iv_"/>
+				<element value="ilan_"/>
 				<element value="epic_"/>
-				<element value="epicd_"/>
 			</property>
 		</properties>
 	</rule>
