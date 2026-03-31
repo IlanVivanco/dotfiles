@@ -19,6 +19,9 @@ mkdir -p ${HOME}/code
 # Setup and config Samba
 ./bin/setup-samba.sh
 
+# Setup and config node
+./bin/setup-node.sh
+
 # Install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
