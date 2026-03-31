@@ -9,6 +9,7 @@ log/
 .vscode/*
 *.code-workspace
 .history/
+.superpowers/
 
 # Local Netlify folder
 .netlify
