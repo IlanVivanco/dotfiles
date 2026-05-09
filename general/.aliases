@@ -9,3 +9,6 @@ alias win='cd /mnt/c/Users/melio'
 
 # Polite sudo alias
 alias please='sudo'
+
+# Paperclip AI
+alias paperclip='(cd "$HOME" && env -u DATABASE_URL paperclipai run)'
